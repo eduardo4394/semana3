@@ -1,0 +1,139 @@
+* {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 6px;
+    margin: 10px;
+}
+
+nav a {
+    padding: 8px;
+    font-size: 13px;
+    text-decoration: none;
+    color: black;
+}
+
+.subrayado:hover {
+    text-decoration: underline;
+}
+
+nav button {
+    color: white;
+    background-color: rgb(26, 115, 232);
+    border-radius: 5px;
+    border: 0;
+    padding: 9px 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 8px;
+}
+
+.circulo {
+    background-color: white;
+    font-size: 16px; 
+    color: #5f6368;
+}
+
+.circulo:hover {
+    background-color: rgb(245, 236, 236);
+    border-radius: 50%;
+}
+
+.container-imagen {
+    width: 100%;
+    text-align: center;
+    padding-top: 109px;
+}
+
+.container-search-bar {
+    width: 582px;
+    height: 44px;
+    margin: 0 auto;
+}
+
+.container-search-bar input {
+    width: 580px;
+    height: 40px; 
+    border-radius: 18px;   
+    border: 1px solid rgb(223, 225, 229);
+    outline: none;
+    padding: 0 0 0 50px;
+    font-size: 18px;
+    margin-top: 25px;
+}
+
+.container-search-bar input:hover {
+    box-shadow: 5px 5px 5px rgb(235, 230, 230);
+}
+
+.icon {
+    position: absolute; 
+    bottom: 50%;
+    z-index: 2;   
+    padding-left: 17px;          
+}
+
+.icon2 {
+    position: absolute; 
+    bottom: 50%;
+    right: 26.5%;
+    z-index: 2;   
+    padding-left: 17px; 
+    font-size: 20px; 
+         
+}
+
+.container-buttons {
+    width: 100%;
+    margin-top: 50px; 
+    text-align: center;    
+}
+
+.container-buttons button {
+    border-radius: 4px;
+    padding: 8px 16px;
+    border: 1px solid #f8f9fa;
+    background-color: #f8f9fa;
+    color: #3c4043;
+}
+
+.container-buttons button:hover {
+    border: 2px solid rgb(218, 214, 214);
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    color: rgba(0,0,0,.54);
+    padding: 15px 30px;
+    background-color: thistle;
+    width: 100%;
+    background-color: rgb(242, 242, 242);
+    box-sizing: border-box;
+}
+
+footer p {
+    border-bottom: 1px solid #dadce0;
+}
+
+.subfooter1 {
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
+.subfooter2 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.subfooter2 a {
+    text-decoration: none;
+    color: rgba(0,0,0,.54);
+    padding: 0 20px;
+    font-size: 14px;
+}
